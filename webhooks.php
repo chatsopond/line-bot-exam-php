@@ -26,16 +26,10 @@ if (!is_null($events['events'])) {
 				'text' => $text
 			];
 			
-			$try_message = {
-				[
+			$try_message = [
 				'type' => 'text',
 				'text' => 'hello'
-				],
-				[
-				'type' => 'text',
-				'text' => 'world'
-				]
-			};
+				];
 			
 			$try_body = [
 				'type' => 'box',
