@@ -13,18 +13,18 @@ $try_body = array(
 
 $body_data_contents = array(
   'type' => 'bubble',
-  'body' => [$try_body]
+  'body' => $try_body
 );
 
 $body_data = array(
     'type' => 'text',
     'altText' => 'This is a Flex Message',
-    'contents' => [$body_data_contents]
+    'contents' => $body_data_contents
 );
 
 $ja = array(
   'to' => 'Ubb56c39799ccd5aac622bb1d4fa067c0',
-  'message' => $body_data
+  'message' => [$body_data]
 );
 
 // Configure cURL
