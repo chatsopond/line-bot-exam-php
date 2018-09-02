@@ -22,6 +22,11 @@ $body_data = array(
     'contents' => [$body_data_contents]
 );
 
+$ja = array(
+  'to' => 'Ubb56c39799ccd5aac622bb1d4fa067c0',
+  'message' => $body_data
+);
+
 // Configure cURL
 $image_curl = curl_init();
 curl_setopt($image_curl, CURLOPT_URL, "https://api.line.me/v2/bot/message/push");
