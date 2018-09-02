@@ -8,18 +8,18 @@ $try_contents = array(
 $try_body = array(
   'type' => 'box',
   'layout' => 'horizontal',
-  'contents' => $try_content
+  'contents' => [$try_content]
 );
 
 $body_data_contents = array(
   'type' => 'bubble',
-  'body' => $try_body
+  'body' => [$try_body]
 );
 
 $body_data = array(
     'type' => 'text',
     'altText' => 'This is a Flex Message',
-    'contents' => $body_data_contents
+    'contents' => [$body_data_contents]
 );
 
 // Configure cURL
