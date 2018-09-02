@@ -8,7 +8,7 @@ $try_contents = array(
 $try_body = array(
   'type' => 'box',
   'layout' => 'horizontal',
-  'contents' => [$try_content]
+  'contents' => $try_content
 );
 
 $body_data_contents = array(
