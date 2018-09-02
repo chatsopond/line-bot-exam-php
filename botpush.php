@@ -16,7 +16,7 @@ $response = $bot->pushMessage($pushID, $textMessageBuilder);
 
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
 
-echo "{
+echo '{
   "type": "bubble",
   "styles": {
     "footer": {
@@ -228,7 +228,7 @@ echo "{
       }
     ]
   }
-}";
+}';
 
 
 
