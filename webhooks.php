@@ -27,6 +27,17 @@ if (!is_null($events['events'])) {
 			];
 			
 			$try_message = [
+				'type' => 'text',
+				'text' => 'Yeah'
+			];
+			
+			$try_body = [
+				'type' => 'box',
+				'layout' => 'horizontal'
+				'contents' => [$try_messages]
+			];
+			
+			$try_message = [
 				'type' => 'buble',
 				'body' => $try_body
 			];
