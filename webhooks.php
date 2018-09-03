@@ -26,22 +26,6 @@ if (!is_null($events['events'])) {
 				'text' => $text
 			];
 			
-			$try_message = [
-				'type' => 'text',
-				'text' => 'Yeah'
-			];
-			
-			$try_body = [
-				'type' => 'box',
-				'layout' => 'horizontal'
-				'contents' => [$try_messages]
-			];
-			
-			$try_message = [
-				'type' => 'buble',
-				'body' => $try_body
-			];
-
 			// Make a POST Request to Messaging API to reply to sender
 			$url = 'https://api.line.me/v2/bot/message/reply';
 			$data = [
